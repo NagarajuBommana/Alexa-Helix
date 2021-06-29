@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{879BB662-B99A-466F-9561-691EA9A87544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{AB5E39C9-8938-4E36-84D9-87D533EB1CA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{37489347-E1C4-48D8-B1C5-78CB099ED735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FAQ", "FAQ", "{B762D511-A1B4-42F1-B66E-10EC5B03E506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaHelix.Feature.FAQ", "src\Feature\FAQ\code\AlexaHelix.Feature.FAQ.csproj", "{E8FABE62-6E72-4C16-BAF6-F29CB8B96121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "News", "News", "{D482B950-88D2-4808-B070-6F13499C0E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaHelix.Feature.News", "src\Feature\News\code\AlexaHelix.Feature.News.csproj", "{0647712F-2D55-46E7-8692-307268F98A4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{98B5C5F0-9D82-4E00-B6CC-B47B41CE74A8}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8FABE62-6E72-4C16-BAF6-F29CB8B96121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FABE62-6E72-4C16-BAF6-F29CB8B96121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FABE62-6E72-4C16-BAF6-F29CB8B96121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FABE62-6E72-4C16-BAF6-F29CB8B96121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0647712F-2D55-46E7-8692-307268F98A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0647712F-2D55-46E7-8692-307268F98A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0647712F-2D55-46E7-8692-307268F98A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0647712F-2D55-46E7-8692-307268F98A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B762D511-A1B4-42F1-B66E-10EC5B03E506} = {879BB662-B99A-466F-9561-691EA9A87544}
+		{E8FABE62-6E72-4C16-BAF6-F29CB8B96121} = {B762D511-A1B4-42F1-B66E-10EC5B03E506}
+		{D482B950-88D2-4808-B070-6F13499C0E96} = {879BB662-B99A-466F-9561-691EA9A87544}
+		{0647712F-2D55-46E7-8692-307268F98A4A} = {D482B950-88D2-4808-B070-6F13499C0E96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52BCBB8E-9B62-4D67-97B0-6D5B03C5B6D8}
+	EndGlobalSection
+EndGlobal
